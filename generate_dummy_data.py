@@ -26,8 +26,8 @@ fields = [
         "type": "categorical",
         "categories": ["20-40", "40-60", "60-80", "80+"],
     },
-    {"name": "COVID-19 like symptoms", "type": "number", "min": 2000, "max": 100000},
-    {"name": "COVID-19 Diagnosed", "type": "number", "min": 200, "max": 1900},
+    {"name": "COVID-19 like symptoms", "type": "categorical", "categories": [0, 1]},
+    {"name": "COVID-19 Diagnosed", "type": "categorical", "categories": [0, 1]},
 ]
 
 
